@@ -76,3 +76,54 @@ html, body{
     font-size: 24px;
     max-width: 900px;
 }
+
+.projects-background{
+  background-color: var(--dark-blue);
+  padding: 100px 0;  
+}
+
+.projects{
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.9;
+    font-size: 24px;
+    max-width: 900px;
+    
+}
+
+.project-card{
+    background-color: var(--light-blue);
+    padding: 80px;
+    margin: 30px auto;
+    transition: 0.2s ease;
+
+}
+
+.projects h2{
+    text-decoration: underline;
+}
+
+.project-btn{
+    border: none;
+    margin: 20px;
+    padding: 20px 15px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    transition: 0.2s ease;
+    box-shadow: 0 0 10px rgba(47, 168, 233, 0.8); 
+}
+
+.project-btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #f0e21f;
+    color: black;
+}
+
+.project-card:hover{
+    transform: scale(1.05);
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(47, 168, 233, 0.8);
+}
+
